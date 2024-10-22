@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <h1>MyPortfolio</h1>
+            <h1>Michael Burns Portfolio</h1>
         </header>
         <div class="theme-container">
             <span id="themeToggle" class="theme-toggle">Dark</span>
@@ -16,31 +16,97 @@
         <section id="intro" class="about">
             <h2>About Me</h2>
             <hr>
-            <p>Hello! My name is Michael. Welcome to my portfolio!</p>
+            <p>Hello! My name is Michael. Welcome to my portfolio!<br/>
+                I am an aspiring software engineer looking to gain industry experience through internship opportunities.
+            </p>
         </section>
         <section id="education" class="education">
             <h2>Education</h2>
             <hr>
             <div>
-                <p>I'm a student from The University of Florida ...</p>
+                <p>I'm an undergraduate Computer Science student at the University of Florida. GPA: 3.60</p>
+            </div>
+        </section>
+        <section id="proficiencies" class="proficiencies">
+            <h2>Proficiencies</h2>
+            <hr>
+            <div>
+                <p>Languages: C/C++, Python, HTML/CSS, Javascript</p>
+                <p>Developer Tools: Git, GitHub, GNU Debugger, VS Code, PyCharm, CLion</p>
+                <p>Libraries: PyGame, Colorama, SFML</p>
+                <p>Frameworks: Node.js</p>
             </div>
         </section>
         <section id = "projects" class="projects">
             <h2>My Projects</h2>
             <hr>
             <div class="project">
-                <h3>Example Project 1</h3>
-                <p>Description of project 1</p>
+                <h3>Terminal Chess</h2>
+                <p>Leader of a team of 2 working on creating a customizable port of Chess that is standardized in the Windows Console. Very much inspired by
+                    contributions to the Terminal Monopoly team with Open Source Club. The game is not yet finished, but will feature a customization menu that
+                    will allow users to change the movement style of pieces, and even add their own pieces. We also plan on implementing LAN multiplayer to 
+                    allow users to play with friends.
+                </p>
+                <h3>Experience gained</h3>
+                <p><strong>1. Creating flexible algorithms:</strong> All algorithms that have been and will be created need to be made with the impression that users will be
+                    able to fundamentally change how the pieces work, meaning that we will need to make them work in a variety of situations. <br/>
+                    <strong>2. Utilizing effective data structures:</strong> Since our board size is customizable, effective storage of player information and piece data needs
+                    to be used to ensure that load times do not get extended. Board size is available up to 26x26 meaning that large boards can have nearly 700
+                    tiles for an inefficient search method to cover, which makes efficient storage a necessity.
+                </p>
             </div>
             <div class="project">
-                <h3>Example Project 2</h3>
-                <p>Description of project 2</p>
+                <h2>Terminal Monopoly</h2>
+                <p>Member of a team at UF Open Source Club developing Terminal Monopoly, a rendition of the Monopoly board game inside of the computer terminal,
+                    featuring LAN multiplayer, minigames, a functional stock market module, and player bargaining. Most recently, I contributed to the efficacy of
+                    the community chest and chance cards algorithm, making more unique cards available for players to draw.
+                </p>
+                <h3>Experience gained</h3>
+                <p><strong>1. Working in a medium-sized team:</strong> Working in a team of 10+ members is much more challenging than working on a group project with 3 others.
+                    Implementing new ideas is more complex as more people need to be convinced, and it's difficult to not slow down production as a consequence. I
+                    hope this provides me with insight and experience in real-world industry workflow. <br/>
+                    <strong>2. Contributing to Open Source through Git:</strong> The group does not always meet in person, meaning that working on the project alone necessitates
+                    individual work and using data on the GitHub page to make my own decisions on production. It is also important for the entire project
+                    to effectively understand Git and GitHub to be able to make contributions through the public repository.
+                </p>
+            </div>
+            <div class="project">
+                <h2>Minesweeper</h2>
+                <p>My final project for Programming Fundamentals 2, where I developed a clone of Minesweeper in C++ using the SFML library. This featured an updating
+                    local leaderboard, customizable board size, a customizable mine count, a functional timer that stopped while the game was paused, and negligible load
+                    times that made the game an effective addition to the Windows Minesweeper program.
+                </p>
+                <h3>Experience gained</h3>
+                <p><strong>1. Creating efficient algorithms:</strong> Without the use of efficient algorithms, the game would have buffered at many points during user input. This was a
+                    problem that I initially faced while creating the game, and fixed it by optimizing the way that the mine search algorithm and board generation were
+                    performed. <br/>
+                    <strong>2. Using external libraries and reading documentation:</strong> SFML is not a default library of C++ but features extensive online documentation. This 
+                    allowed me to gain experience in reading documentation and discovering how to program in a very unfamiliar scenario. I did not receive assistance
+                    in the use of SFML in my class, and managed to effectively program and create a final product despite this. <br/>
+                    <strong>3. Using external files to store data:</strong> The leaderboard functionality built into the game was accomplished using the C++ fstream library to read and
+                    write information to a leaderboard file stored with the game code. This is also how customizable board sizes and mine count were achieved, through a
+                    config file that I also included with the game files.
+                </p>
+            </div>
+            <div class="project">
+                <h2>Sudoku</h2>
+                <p>Final project for Programming Fundamentals 1, in which I worked with a group of 4 people to develop a clone of Sudoku using Pygame. Featured custom graphics such as
+                    small display text before finalizing numerical input into a tile during gameplay, or falling number graphics on user mouse click on the title screen. We also imported
+                    custom fonts and sound functionality.
+                </p>
+                <h3>Experience gained</h3>
+                <p><strong>1. Working in a small team:</strong> In a group of 4, I developed skills in team communication and optimized my workflow to contribute to the project despite
+                    occasional difficulties in group cohesion. I think this provides valuable experience for future workspaces<br/>
+                    <strong>2. Using external libraries and reading documentation:</strong> As we used Pygame to finish this project, we were required to read and understand documentation
+                    for this new library we had never seen before. This was a great experience in using a language I was very familiar with for an unfamiliar purpose, which made the project
+                    much harder but also much more rewarding. <br/>
+                </p>
             </div>
         </section>
         <section id="contact" class="contact">
             <h2>Contact</h2>
             <hr>
-            <p>You can reach me at <a href="mailto:ercf77@gmail.com">ercf77@gmail.com</a>.</p>
+            <p>You can reach me at <a href="mailto:mlburns133@gmail.com">mlburns133@gmail.com</a>.</p>
         </section>
         <script src="script.js"></script>
     </body>

@@ -1,5 +1,5 @@
 body {
-    background-color: #808080;
+    background-color: #a5a5a5;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ section {
     margin: 1rem 0;
 }
 
-.about, .projects, .contact, .education {
+.about, .projects, .contact, .education, .proficiencies {
     max-width: 800px;
     margin: 0 auto;
 }
