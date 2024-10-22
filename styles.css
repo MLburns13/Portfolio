@@ -42,7 +42,7 @@ section {
     margin: 1rem 0;
 }
 
-.about, .projects, .contact, .education, .proficiencies {
+.about, .projects, .contact, .proficiencies, .education {
     max-width: 800px;
     margin: 0 auto;
 }
